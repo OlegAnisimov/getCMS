@@ -16,7 +16,7 @@ function check_cms() {
                 for (var i = 0; i < wl; i++) {
                     if ($.trim(url[i]) != "") {
                         kwl++;
-                        $("#show_cms").append("<tr><td>" + url[i] + "</td><td id='cms_" + i + "'><img src='ajax-loader.gif'></td></tr>");
+                        $("#show_cms").append("<tr><td>" + url[i] + "</td><td id='cms_" + i + "'></td></tr>");
                     }
                 }
                 $("#show_cms").append("<tr><td><a onclick='$(\"#show_cms\").fadeOut( function() { $(\"#cms\").fadeIn(); $(\"#site_list\").focus(); });' style='text-decoration:underline;'>к списку сайтов</a></td><td></td></tr>");

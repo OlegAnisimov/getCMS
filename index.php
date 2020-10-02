@@ -21,7 +21,7 @@ echo
 <form id='cms' action='' method='post'>
     Список сайтов:<br><br>
 <textarea id='site_list' style='width:500px; height:300px'></textarea><br><br>
-<input type='button' value='Определить' onclick='check_cms();'>     <input type='reset' value='Очистить' onclick='$(\"#site_list\").focus();'>
+<input type='button' value='Определить' onclick='check_cms();'>     <input type='reset' value='Очистить' onclick='$("#site_list").focus();'>
 </form>
 
 <table width='100%' border='1' bordercolor='lightblue' style='BORDER-COLLAPSE: collapse; display: none;' id='show_cms' cellpadding=\"3\"></table>
